@@ -19,6 +19,7 @@ android {
         versionName "0.1"
 
         buildConfigField "String", "APIKEY", APIKEY
+        buildConfigField "String", "BASE_URL", BASE_URL
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
